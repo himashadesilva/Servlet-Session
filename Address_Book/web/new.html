@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Address Book</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div style="background-color:rgb(224, 220, 235); padding:20px;">
+            <h2 style="color:blue;">Address Book Directory</h2>
+        </div>
+        <div style="background-color:rgb(224, 235, 235); padding:20px;">
+            <form method="post" action="newEntry">
+                <fieldset>
+                    <legend>Contact information:</legend>
+                    Name: <div><input type="text" name="name1" id = "contact1" /> <br> <br></div>
+                    Details:<div><input type="text" name="name2" id = "contact2" /> <br> <br></div>
+                    <input type="submit" value="Add Contact"/>
+                </fieldset>
+            </form>
+        </div>
+        <div style="background-color:rgb(224, 235, 235); padding:20px;" >
+            <form method="get" action="newEntry">
+                <fieldset>
+                    <legend>Search contact information:</legend>
+                    Search by Name: 
+                    <div><input type="text" name="name3" id = "contact"/> <br> <br></div>
+                    <input type="submit" value="Search"/>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
